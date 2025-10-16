@@ -16,7 +16,7 @@ jobs:
   publish-provider-package:
     uses: crossplane-contrib/provider-workflows/.github/workflows/publish-provider-non-family.yml@main
     with:
-      repository: provider-azuread
+      repository: provider-upjet-azuread
       registry_org: mgp-systems
       mirror: false
       version: ${{ github.event.inputs.version }}
